@@ -1,0 +1,225 @@
+/* colores
+#DAD4B5 Beige
+#E9B824 amarillo
+#952323 Rojo
+#A73121 otro rojo
+
+*/
+
+/*fonts*/
+/*Font-Family, @font-face*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /*1rem = 10px*/
+}
+
+@font-face {
+  font-family: delos;
+  src: url(../fonts/grandstander-bold.ttf);
+}
+
+@font-face {
+  font-family: delos1;
+  src: url(../fonts/grandstander-black.ttf);
+}
+
+/*header*/
+
+body {
+  background-color: #dad4b5;
+}
+
+header {
+  background-color: #952323;
+}
+
+header a {
+  height: 100%;
+}
+header li a {
+  color: #faebd7;
+}
+
+nav {
+  font-family: delos;
+  font-size: 1.5rem;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+
+/*main*/
+
+.presentacion {
+  padding: 5px;
+  width: 95%;
+  display: flex;
+  margin: auto;
+}
+/*Grid reemplazado con bootstrap*/
+/*.grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "historia historia historia historia"
+    "historia1 historia1 banda banda"
+    "historia2 historia2 banda banda";
+}
+
+.grid a {
+  display: grid;
+  grid-area: banda;
+}
+
+.historia {
+  grid-area: historia;
+  align-self: center;
+  margin-block-start: auto;
+}
+
+.historia1 {
+  grid-area: historia1;
+}
+
+.historia2 {
+  grid-area: historia2;
+}*/
+
+.banda {
+  width: 100%;
+  grid-area: banda;
+}
+
+h2 {
+  margin: 15px;
+  color: #000000;
+  font-family: delos1;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  margin: 10px;
+  font-family: delos1;
+  font-size: 3rem;
+}
+
+p {
+  font-family: delos;
+  color: black;
+  font-size: 2rem;
+  margin: 30px;
+  font-weight: 400;
+  text-align: start;
+  text-decoration: wavy;
+}
+
+/*.videos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videos iframe {
+    margin: 5px;
+}*/
+
+.fixture {
+  background-image: url(../fotos/bandavivo.jpg);
+  background-position: center;
+  background-size: cover;
+  color: antiquewhite;
+  font-size: 3rem;
+  font-family: delos;
+  font-weight: 300;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.607);
+  padding: 60px 0px;
+  text-align-last: center;
+}
+
+.fixture li {
+  padding: 1rem;
+}
+
+.entradas {
+  color: blue;
+  font-family: delos1;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.entradas:hover {
+  font-size: 5rem;
+  transition: all 0.3s ease;
+}
+
+/*Nosotros*/
+.musicos {
+  height: 560px;
+  object-fit: cover;
+  object-position: top;
+}
+h5 {
+  color: #dad4b5;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.607);
+}
+.slides {
+  color: #dad485;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.607);
+}
+.carousel-custom {
+  max-width: 500px;
+  margin: 0 auto;
+}
+/*contacto*/
+
+.contacto {
+  text-align: center;
+}
+
+
+/*footer*/
+footer {
+  background-color: #a73121;
+  height: 80px;
+}
+
+h4 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+footer a img {
+  width: 30px;
+  transition: all 0.3s ease;
+}
+
+footer a img:hover {
+  width: 40px;
+}
+/*mobile*/
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+
+  header a {
+    height: 60%;
+  }
+
+  header a img {
+    margin-left: 0px;
+  }
+  .text-area {
+    width: 100%;
+  }
+}
