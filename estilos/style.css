@@ -184,6 +184,10 @@ h5 {
 .contacto {
   text-align: center;
 }
+.btn-custom {
+  background-color: #952323 ;
+  color: #DAD4B5;
+}
 
 
 /*footer*/
