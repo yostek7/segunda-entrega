@@ -1,0 +1,60 @@
+//Index, canciones y fechas//
+
+/*main*/
+.presentacion {
+  padding: 5px;
+  width: 95%;
+  display: flex;
+  margin: auto;
+}
+h1 {
+  margin: 15px;
+  color: #000000;
+  font-family: delos1;
+  text-align: center;
+  font-size: 3rem;
+}
+h2 {
+  margin: 10px;
+  font-family: delos1;
+  font-size: 3rem;
+}
+p {
+  font-family: delos;
+  color: black;
+  font-size: 2rem;
+  margin: 30px;
+  font-weight: 400;
+  text-align: start;
+  text-decoration: wavy;
+}
+.banda {
+  width: 100%;
+  grid-area: banda;
+}
+
+.fixture {
+  background-image: url(../fotos/bandavivo.jpg);
+  background-position: center;
+  background-size: cover;
+  color: antiquewhite;
+  font-size: 3rem;
+  font-family: delos;
+  font-weight: 300;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.607);
+  padding: 60px 0px;
+  text-align-last: center;
+  li {
+    padding: 1rem;
+  }
+}
+.entradas {
+  color: blue;
+  font-family: delos1;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.entradas:hover {
+  font-size: 5rem;
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,19 @@
+/*header*/
+
+header {
+  background-color: $rojo;
+  nav {
+    font-family: delos;
+    font-size: 1.5rem;
+  }
+  a {
+    height: 100%;
+  }
+  .navbar-brand img {
+    border-radius: 50%;
+    animation: rotarInfinito 5s infinite linear;
+  }
+  li a {
+    color: #faebd7;
+  }
+}

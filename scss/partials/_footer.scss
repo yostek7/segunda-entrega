@@ -1,0 +1,20 @@
+
+/*footer*/
+footer {
+    background-color: $bordo;
+    height: 80px;
+    p {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      margin: 1px;
+    }
+    a img {
+      width: 30px;
+      transition: all 0.3s ease;
+    }
+    a img:hover {
+      width: 40px;
+    }
+  }
+  

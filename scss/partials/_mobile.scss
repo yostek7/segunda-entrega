@@ -1,0 +1,18 @@
+/*mobile*/
+@media screen and (max-width: 500px) {
+    header {
+      flex-direction: column;
+    }
+  
+    header a {
+      height: 60%;
+    }
+  
+    header a img {
+      margin-left: 0px;
+    }
+    .text-area {
+      width: 100%;
+    }
+  }
+  
