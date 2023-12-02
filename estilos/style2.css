@@ -24,6 +24,9 @@ body {
   background: -webkit-radial-gradient(circle, rgb(218, 212, 181) 40%, rgb(230, 216, 144) 100%);
   background: radial-gradient(circle, rgb(218, 212, 181) 40%, rgb(230, 216, 144) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dad4b5",endColorstr="#e6d890",GradientType=1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 @keyframes rotarInfinito {
@@ -129,7 +132,18 @@ p {
   text-align: center;
 }
 
+.form-size {
+  font-size: 2rem;
+}
+
+textarea#floatingTextarea2 {
+  min-height: 250px;
+  font-size: 2rem;
+}
+
 .btn-custom {
+  font-size: 2rem;
+  padding: 8px 32px;
   background-color: #952323;
   color: #dad4b5;
 }
@@ -138,6 +152,7 @@ p {
 footer {
   background-color: #a73121;
   height: 80px;
+  margin-top: auto;
 }
 footer p {
   font-size: 2rem;

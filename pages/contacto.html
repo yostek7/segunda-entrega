@@ -47,39 +47,60 @@
         </nav>
     </header>
 
-    <main class="vh-100">
+    <main>
         <section class="container">
             <h1>Contacto</h1>
-            <form action="">
-                <div class="row g-3 justify-content-center">
-                <div class="col-12 col-sm-offset-2 col-sm-4">
-                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            <form class="row g-3 col-md-10 offset-md-1">
+                <div class="col-12 col-md-6">
+                  <input
+                    type="text"
+                    class="form-control form-size"
+                    placeholder="Nombre"
+                    aria-label="First name"
+                  />
                 </div>
-                <div class="col-12 col-sm-offset-2 col-sm-4">
-                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                <div class="col-12 col-md-6">
+                  <input
+                    type="text"
+                    class="form-control form-size"
+                    placeholder="Apellido"
+                    aria-label="Last name"
+                  />
                 </div>
+                <div class="col-12 col-md-6">
+                  <input
+                    type="email"
+                    class="form-control form-size"
+                    placeholder="E-mail"
+                    id="inputEmail4"
+                    required=""
+                  />
                 </div>
-                <div class="row g-3 justify-content-center mt-1 mt-sm-0">
-                    <div class="col-12 col-sm-offset-2 col-sm-4">
-                      <input type="email" class="form-control" placeholder="E-mail" id="inputEmail4" required />
+                <div class="col-12 col-md-6">
+                  <input
+                    type="tel"
+                    class="form-control form-size"
+                    placeholder="Telefono"
+                    aria-label="Tel"
+                  />
+                </div>
+                <div class="form-floating col-12">
+                  <textarea
+                    class="form-control form-size"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 250px"
+                  ></textarea>
+                  <label for="floatingTextarea2" class="form-size">Déjanos tu mensaje</label>
+                </div>
+                <div class="container-fluid h-100 my-3">
+                  <div class="row w-100 align-items-center">
+                    <div class="col-12 text-center">
+                      <button class="btn btn-custom" type="submit">Enviar</button>
                     </div>
-                    <div class="col-12 col-sm-offset-2 col-sm-4">
-                        <input type="tel" class="form-control" placeholder="Telefono" aria-label="Tel">
-                      </div>
+                  </div>
                 </div>
-                    <div class="row g-3 justify-content-center">
-                      <div class="form-floating col-12 col-sm-offset-2 col-sm-8 mt-4">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px"></textarea>
-                        <label for="floatingTextarea2">Déjanos tu mensaje</label>
-                      </div>
-                    </div>
-                      <div class="container-fluid h-100 mt-3">
-                        <div class="row w-100 align-items-center">
-                            <div class="col-12 text-center">
-                        <button class="btn btn-custom" type="submit">Enviar</button>
-                      </div>
-              </div>
-            </form>
+              </form>
         </section>
     </main>
 

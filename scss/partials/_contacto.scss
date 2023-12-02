@@ -4,7 +4,16 @@
 .contacto {
     text-align: center;
   }
+  .form-size {
+    font-size: 2rem;
+  }
+  textarea#floatingTextarea2{
+    min-height: 250px;
+    font-size: 2rem;
+  }
   .btn-custom {
+    font-size: 2rem;
+    padding: 8px 32px;
     background-color: $rojo;
     color: $beige;
   }
